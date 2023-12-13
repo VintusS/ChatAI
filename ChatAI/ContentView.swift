@@ -14,7 +14,8 @@ final class ViewModel: ObservableObject {
     private var client: OpenAISwift?
     
     func setup() {
-            let config = OpenAISwift.Config.makeDefaultOpenAI(apiKey: "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")
+        //change the apiKey with your key
+            let config = OpenAISwift.Config.makeDefaultOpenAI(apiKey: "tokem")
             self.client = OpenAISwift(config: config)
         }
     
